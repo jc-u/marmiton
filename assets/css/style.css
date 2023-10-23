@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	font-size: 16px;
+	background-color: #efefef;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+section {
+	margin-top: 50px;
+	padding: 60px 30px;
+	border-radius: 20px;
+	background-color: white;
+}
+
+p {
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #393c6c;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #f3735f;
+	margin: 70px auto 20px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #393c6c;
+	line-height: 22px;
+}
+
+header {
+	border-bottom: solid 1px #f3735f;
+	background-color: white;
+	height: 50px;
+	line-height: 50px;
+}
+
+header .container img {
+	width: auto;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.baseline {
+	margin: 16px auto 21px;
+	text-align: center;
+}
+
+.time {
+	width: 262px;
+	height: 29px;
+	background-color: #8a98b1;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	line-height: 29px;
+	border-radius: 5px;
+	margin: 0 auto 38px;
+}
+
+.diapo .img {
+	display: inline-block;
+}
+
+.diapo img {
+	width: 298px;
+	height: 298px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.diapo .img:nth-child(2) {
+	margin: 0 31px;
+}
+
+ul {
+	list-style: outside;
+	margin-left: 15px;
+}
+
+li {
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+li::marker {
+	font-size: 12px;
+}
+
+footer {
+	height: 100px;
+}
+
+footer p {
+	text-align: center;
+	line-height: 100px;
+	font-family: "Roboto", sans-serif;
+}
